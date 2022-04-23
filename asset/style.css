@@ -1,0 +1,145 @@
+ body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+ }
+p::selection {
+  color: yellowgreen;
+  background: red;
+}
+ h1 {
+	color: rgb(255, 217, 0);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ h2 {
+    color: red;
+ }
+
+ h3 {
+  color: rgb(218, 100, 32);
+}
+
+
+ .navigation {
+   text-align: right;
+   position: sticky;
+   top:0;
+ }
+
+ nav a {
+   font-size: 18px;
+   font-weight: 300;
+   text-decoration: none;
+}
+
+ nav a:hover {
+   font-weight: bold;
+   color:rgb(255, 0, 0);
+}
+
+ .featured-image {
+	width: 100%;
+	max-height: 650px;
+	object-fit: cover;
+	object-position: center;
+}
+
+ .image {
+  width: 200%;
+	max-height: 600px;
+  max-width: 100%;
+  padding-bottom: 0px;
+  object-fit: cover;
+	object-position: center;
+  align-content: center;
+}
+
+ .image1{
+  width: 100%;
+	max-height: 250px;
+  max-width: 100%;
+  padding-bottom: 0px;
+  object-fit:contain;
+	object-position: center;
+  align-content:center;
+}
+
+ .box{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+ .judul {
+   font-size: 20px;
+   padding: 5px;
+   background-color: rgb(0, 173, 173);
+   text-align: center;
+   color: white;
+}
+
+ nav {
+   position: sticky;
+   top: 0;
+}
+
+ .header {
+   display: inline;
+}
+
+ nav li {
+	display: inline-block;
+	margin-right: 20px;
+	padding: 10px;
+	background-color: rgb(207, 250, 106);
+	color: rgb(0,0,0);
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+ main {
+    padding: 20px;
+}
+
+ .wrapper{  
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;        
+} 
+ 
+ .kotak {   
+    margin-left:30px;
+    width: 630px;  
+    padding: 20px;  
+    border-radius: 12px;      
+    border: 3px solid rgb(207, 59, 1);  
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+ .blink {
+    animation: blink-animation 1s steps(5,start) infinite;
+    -webkit-animation: blink-animation 1s steps(5,start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+ .marq {
+    color: red;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  
